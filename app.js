@@ -41,7 +41,7 @@ app.use((req, res, next) => {
 });
 
 app.get('/', (req, res) => {
-  res.send('invaild endpoint');
+  res.send('invalid endpoint');
 });
 
 app.get('*', (req, res) => {

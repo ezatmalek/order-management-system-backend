@@ -38,7 +38,6 @@ orderRoute.route('/read-order/:id').get((req, res) => {
   })
 })
 
-
 // Update order
 orderRoute.route('/update-order/:id').put((req, res, next) => {
   Order.findByIdAndUpdate(req.params.id, {
